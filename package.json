@@ -1,9 +1,6 @@
 {
   "name": "immerensis-homepage",
   "version": "1.0.0",
-  "description": "Immerensis's website",
-  "main": "index.js",
-  "homepage": "immerensis.github.io",
   "private": true,
   "scripts": {
     "dev": "next dev",
