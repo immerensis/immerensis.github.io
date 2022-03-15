@@ -4,13 +4,13 @@
   "description": "Immerensis's website",
   "main": "index.js",
   "homepage": "immerensis.github.io",
+  "private": true,
   "scripts": {
-    "start": "next start",
-    "dev": "next dev -H 0.0.0.0",
+    "dev": "next dev",
     "build": "next build",
+    "start": "next start",
     "prettier": "prettier -write .",
-    "lint": "next lint",
-    "deploy": "npm run build && gh-pages -d .next"
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "Immerensis<immerensis@protonmail.com>",
