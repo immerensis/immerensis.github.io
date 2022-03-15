@@ -1,0 +1,36 @@
+{
+  "name": "immerensis-homepage",
+  "version": "1.0.0",
+  "description": "Immerensis's website",
+  "main": "index.js",
+  "homepage": "immerensis.github.io",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint",
+    "deploy": "npm run build && gh-pages -d .next"
+  },
+  "keywords": [],
+  "author": "Immerensis<immerensis@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.7.2",
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "framer-motion": "^5.3.0",
+    "gh-pages": "^3.2.3",
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "three": "^0.135.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-next": "^12.1.0",
+    "prettier": "^2.5.1"
+  }
+}
