@@ -11,7 +11,7 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Immerensis's homepage" />
         <meta name="author" content="Immerensis" />
-        <meta name="author" content="craftzdog" />
+        <meta name="author" content="icebear" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:card" content="summary_large_image" />
