@@ -143,7 +143,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @immerensis
+                @immerensisio
               </Button>
             </Link>
           </ListItem>
