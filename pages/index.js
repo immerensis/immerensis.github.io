@@ -154,7 +154,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @immerensis
+                @immerensis.io
               </Button>
             </Link>
           </ListItem>
